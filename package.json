@@ -1,6 +1,6 @@
 {
-  "name": "react-native-math-view",
-  "version": "3.9.5",
+  "name": "@searchmoe/react-native-math-view",
+  "version": "4.0.0",
   "description": "Math view for react-native",
   "main": "src",
   "esnext": "src",
@@ -9,6 +9,7 @@
     "release": "node ./scripts/publish",
     "start": "cd MathExample && npm start",
     "dev": "node ./scripts/dev",
+    "compile": "node ./scripts/compileMathhax.js",
     "tsc": "node ./scripts/dev --tsc"
   },
   "keywords": [
@@ -22,11 +23,11 @@
     "rn",
     "latex"
   ],
-  "author": "ShaMan123 (https://github.com/ShaMan123)",
+  "author": "ShaMan123 (https://github.com/ShaMan123), Kompose",
   "license": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ShaMan123/react-native-math-view.git"
+    "url": "https://github.com/searchmoe/react-native-math-view.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
@@ -34,8 +35,8 @@
   "dependencies": {
     "hast-util-from-selector": "^2.0.0",
     "lodash": "^4.17.21",
-    "mathjax": "^3.2.1",
-    "mathjax-full": "^3.1.4",
+    "mathjax": "^3.2.2",
+    "mathjax-full": "^3.2.2",
     "react": "*",
     "react-native": "*",
     "transformation-matrix": "^2.11.1"
@@ -51,7 +52,8 @@
     "fs-extra": "^10.0.0",
     "path": "^0.12.7",
     "semver": "^7.3.5",
-    "typescript": "^4.2.4",
+    "speech-rule-engine": "4.1.2",
+    "typescript": "^4.6.4",
     "yargs": "^17.0.1"
   },
   "resolutions": {
